@@ -19,7 +19,7 @@ export const VENTURES: Venture[] = [
     domain: 'seedfund.africa',
     description: 'Empowering early-stage founders with the capital, network, and operational support required to scale innovative solutions across the continent.',
     status: VentureStatus.PRE_LAUNCH,
-    url: 'https://leanstart.africa',
+    url: '#',
     imageUrl: 'https://images.unsplash.com/photo-1553729459-efe14ef6055d?auto=format&fit=crop&q=80&w=800',
     icon: '🌱'
   },
@@ -29,7 +29,7 @@ export const VENTURES: Venture[] = [
     domain: 'njangilist.com',
     description: 'A community-driven platform digitizing traditional savings and credit associations (Njangis) to drive collaborative commerce and financial inclusion.',
     status: VentureStatus.DEVELOPMENT,
-    url: 'https://leanstart.africa',
+    url: '#',
     imageUrl: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&q=80&w=800',
     icon: '🤝'
   }
