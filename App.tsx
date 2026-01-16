@@ -149,7 +149,6 @@ const App: React.FC = () => {
               <h4 className="text-white font-bold mb-6">Connect</h4>
               <ul className="space-y-4 text-sm">
                 <li><a href="https://www.youtube.com/@LeanStart.Africa" target="_blank" className="hover:text-white transition-colors">YouTube Channel</a></li>
-                <li><a href="mailto:hello@leanstart.africa" className="hover:text-white transition-colors">Contact Us</a></li>
               </ul>
             </div>
           </div>
