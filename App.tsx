@@ -128,8 +128,14 @@ const App: React.FC = () => {
                 Building the future of African digital business through documentation, execution, and community.
               </p>
               <div className="flex justify-center md:justify-start space-x-6">
-                <a href="https://www.youtube.com/@LeanStart.Africa" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white transition-colors">
-                  <svg className="w-7 h-7" fill="currentColor" viewBox="0 0 24 24">
+                <a 
+                  href="https://www.youtube.com/@LeanStart.Africa" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-slate-400 hover:bg-orange-600 hover:text-white transition-all duration-300"
+                  aria-label="YouTube Channel"
+                >
+                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z" />
                   </svg>
                 </a>
