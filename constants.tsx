@@ -6,11 +6,11 @@ import { Venture, VentureStatus } from './types';
 export const VENTURES: Venture[] = [
   {
     id: 'made-in-africa',
-    name: 'MadeInAfrica.biz',
-    domain: 'madeinafrica.biz',
-    description: 'A premium B2B and consumer marketplace dedicated to showcasing and distributing authentic African-made goods to a global audience.',
+    name: 'hali.Africa',
+    domain: 'hali.africa',
+    description: 'B2B and consumer marketplace dedicated to showcasing and distributing authentic African-made goods to a global audience.',
     status: VentureStatus.PRE_LAUNCH,
-    url: 'https://madeinafrica.biz',
+    url: 'https://www.hali.africa',
     imageUrl: 'https://images.unsplash.com/photo-1610832958506-aa56368176cf?auto=format&fit=crop&q=80&w=800',
     icon: '🛍️'
   },
