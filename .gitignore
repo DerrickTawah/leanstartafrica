@@ -32,6 +32,9 @@ coverage
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
+# Shared editor config: teaches the CSS validator Tailwind v4 at-rules
+!.vscode/settings.json
+!.vscode/css-custom-data.json
 .idea
 .DS_Store
 Thumbs.db
@@ -40,3 +43,9 @@ Thumbs.db
 *.njsproj
 *.sln
 *.sw?
+
+# Local redesign working folder (not part of the shipped app)
+Leanstart Africa redesign/
+
+# Prerender SSR bundle (build artefact)
+.prerender

@@ -1,0 +1,7 @@
+{
+  "recommendations": [
+    // Class-name completion, hover previews of the generated CSS, and awareness
+    // of the tokens declared in src/index.css.
+    "bradlc.vscode-tailwindcss"
+  ]
+}

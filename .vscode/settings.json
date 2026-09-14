@@ -1,0 +1,7 @@
+{
+  // The built-in CSS language service only knows standard at-rules, so it flags
+  // Tailwind v4's @theme in src/index.css as "Unknown at rule". This teaches it
+  // the Tailwind directives by name, which keeps the unknown-at-rule warning
+  // working for genuine typos instead of switching it off wholesale.
+  "css.customData": [".vscode/css-custom-data.json"]
+}

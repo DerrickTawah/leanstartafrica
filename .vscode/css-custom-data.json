@@ -1,0 +1,68 @@
+{
+  "version": 1.1,
+  "atDirectives": [
+    {
+      "name": "@theme",
+      "description": "Tailwind CSS v4. Defines the project's design tokens as CSS custom properties. Tokens declared here (--font-*, --color-*, --spacing-*, --breakpoint-*, ...) also generate the matching utility classes.",
+      "references": [
+        { "name": "Tailwind docs: theme variables", "url": "https://tailwindcss.com/docs/theme" }
+      ]
+    },
+    {
+      "name": "@source",
+      "description": "Tailwind CSS v4. Registers an extra path for Tailwind to scan for class names, for files its automatic detection would otherwise miss.",
+      "references": [
+        { "name": "Tailwind docs: detecting classes", "url": "https://tailwindcss.com/docs/detecting-classes-in-source-files" }
+      ]
+    },
+    {
+      "name": "@utility",
+      "description": "Tailwind CSS v4. Defines a custom utility class that works with variants such as hover: and md:.",
+      "references": [
+        { "name": "Tailwind docs: adding custom styles", "url": "https://tailwindcss.com/docs/adding-custom-styles" }
+      ]
+    },
+    {
+      "name": "@variant",
+      "description": "Tailwind CSS v4. Applies a Tailwind variant to styles within a rule.",
+      "references": [
+        { "name": "Tailwind docs: adding custom styles", "url": "https://tailwindcss.com/docs/adding-custom-styles" }
+      ]
+    },
+    {
+      "name": "@custom-variant",
+      "description": "Tailwind CSS v4. Defines a new variant that can then be used as a utility prefix.",
+      "references": [
+        { "name": "Tailwind docs: adding custom styles", "url": "https://tailwindcss.com/docs/adding-custom-styles" }
+      ]
+    },
+    {
+      "name": "@apply",
+      "description": "Tailwind CSS. Inlines existing utility classes into a custom CSS rule.",
+      "references": [
+        { "name": "Tailwind docs: adding custom styles", "url": "https://tailwindcss.com/docs/adding-custom-styles" }
+      ]
+    },
+    {
+      "name": "@reference",
+      "description": "Tailwind CSS v4. Imports a stylesheet for its theme and utility definitions only, without duplicating its output. Used in component-scoped styles.",
+      "references": [
+        { "name": "Tailwind docs: adding custom styles", "url": "https://tailwindcss.com/docs/adding-custom-styles" }
+      ]
+    },
+    {
+      "name": "@plugin",
+      "description": "Tailwind CSS v4. Loads a JavaScript Tailwind plugin.",
+      "references": [
+        { "name": "Tailwind docs: functions and directives", "url": "https://tailwindcss.com/docs/functions-and-directives" }
+      ]
+    },
+    {
+      "name": "@config",
+      "description": "Tailwind CSS v4. Loads a legacy JavaScript tailwind.config.js file.",
+      "references": [
+        { "name": "Tailwind docs: functions and directives", "url": "https://tailwindcss.com/docs/functions-and-directives" }
+      ]
+    }
+  ]
+}

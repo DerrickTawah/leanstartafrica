@@ -1,4 +1,6 @@
+# https://leanstart.africa
 User-agent: *
 Allow: /
 
+# Generated at build time from the route table in seo.ts
 Sitemap: https://leanstart.africa/sitemap.xml
