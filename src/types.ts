@@ -1,9 +1,12 @@
-
 export enum VentureStatus {
   LIVE = 'Live',
   PRE_LAUNCH = 'Pre-launch',
-  DEVELOPMENT = 'Under Development'
+  DEVELOPMENT = 'Under Development',
+  IDEA = 'Idea'
 }
+
+/** Key into VENTURE_ICONS in components/VentureCard.tsx. */
+export type VentureIcon = 'marketplace' | 'redaction' | 'family-tree' | 'funding';
 
 export interface Venture {
   id: string;
@@ -13,5 +16,5 @@ export interface Venture {
   status: VentureStatus;
   url: string;
   imageUrl: string;
-  icon: string;
+  icon: VentureIcon;
 }
